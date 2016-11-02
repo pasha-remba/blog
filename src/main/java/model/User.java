@@ -1,13 +1,12 @@
 package model;
 
-@Entity
 public class User extends Entity {
 
     private String email;
     private String password;
     private String role;
-    User(long id, String name, String email, String password, String role) {
-        super(id, name);
+    User(long id, String nameUser, String email, String password, String role) {
+        super(id, nameUser);
         this.email = email;
         this.password = password;
         this.role = role;

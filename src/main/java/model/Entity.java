@@ -16,7 +16,7 @@ public abstract class Entity {
         return name;
     }
 
-    public void setName(String firstName) {
+    public void setName(String name) {
         this.name = name;
     }
 
